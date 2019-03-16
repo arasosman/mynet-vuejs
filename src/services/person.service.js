@@ -12,5 +12,8 @@ export default {
     },
     ShowPerson(id){
         return ApiService.get('/person/'+id)
+    },
+    ClearCache(){
+        return ApiService.get('/clear/cache')
     }
 }
